@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "fastify-profiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/postgres": "^6.0.2",
+    "fastify": "^5.8.5",
+    "pg": "^8.20.0"
+  }
+}
